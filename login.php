@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
         </div>
         <div class='nav-links'>
-            <a href='beranda.html'>Beranda</a>
+            <a href='index.html'>Beranda</a>
             <a href='Biodata_Siswa.html'>Biodata</a>
             <a href='Buku_Tamu.html'>Buku Tamu</a>
         </div>
