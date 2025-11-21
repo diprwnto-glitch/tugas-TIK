@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register Admin</title>
+    <link rel="stylesheet" href="desain.css">
+</head>
+<body>
+
+<div class="header-navbar">
+    <div class="logo">
+        <img src="smk favorit.jpg" alt="Logo">
+        <div>
+            <h2>SMKN 1 PASURUAN</h2>
+            <p>REKAYASA PERANGKAT LUNAK</p>
+        </div>
+    </div>
+    <div class="nav-links">
+        <a href="beranda.html">Beranda</a>
+        <a href="Biodata_Siswa.html">Biodata</a>
+        <a href="Buku_Tamu.html">Buku Tamu</a>
+    </div>
+</div>
+
+<div class="content-container">
+    <div class="form-buku-tamu">
+        <h1 style="text-align: center;">Register Admin</h1>
+        <hr>
+        <form action="regist.php" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <input type="submit" value="Daftar">
+        </form>
+    </div>
+</div>
+
+<footer>
+    &copy; 2025 • Rekayasa Perangkat Lunak • SMK Negeri 1 Pasuruan • Adi Purwanto Ramadhani
+</footer>
+
+</body>
+</html>
