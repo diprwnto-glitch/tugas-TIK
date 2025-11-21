@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buku Tamu</title>
+  <link rel="stylesheet" href="desain.css">
+</head>
+<body>
+
+<div class="header-navbar">
+    <div class="logo">
+        <img src="smk favorit.jpg" alt="Logo">
+        <div>
+            <h2>SMKN 1 PASURUAN</h2>
+            <p>REKAYASA PERANGKAT LUNAK</p>
+        </div>
+    </div>
+    <div class="nav-links">
+        <a href="beranda.html">Beranda</a>
+        <a href="Biodata_Siswa.html">Biodata</a>
+        <a href="Buku_Tamu.html">Buku Tamu</a>
+        <a href="login.html">Login</a>
+    </div>
+</div>
+
+<div class="content-container">
+    <h1 style="text-align: center;">📖 Buku Tamu</h1>
+    <hr>
+    <div class="form-buku-tamu">
+        <form action="simpan.php" method="POST">
+            <label for="nama_tamu">Nama:</label>
+            <input type="text" id="nama_tamu" name="nama_tamu" required>
+    
+            <label for="alamat_tamu">Alamat:</label>
+            <input type="text" id="alamat_tamu" name="alamat_tamu" required>
+    
+            <label for="notelp_tamu">No. Telepon:</label>
+            <input type="text" id="notelp_tamu" name="notelp_tamu" required>
+    
+            <label for="pesan_tamu">Pesan:</label>
+            <textarea id="pesan_tamu" name="pesan_tamu" rows="5" required></textarea>
+    
+            <input type="submit" value="Simpan">
+        </form>
+    </div>
+</div>
+
+<footer>
+    &copy; 2025 • Rekayasa Perangkat Lunak • SMK Negeri 1 Pasuruan • Adi Purwanto Ramadhani
+</footer>
+
+</body>
+</html>
